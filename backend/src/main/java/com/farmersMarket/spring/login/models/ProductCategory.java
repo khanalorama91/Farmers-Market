@@ -21,12 +21,12 @@ import java.util.Set;
 
 public class ProductCategory {
 
-    public Long getId() {
-		return id;
+    public Long productId() {
+		return productId;
 	}
 
 	public void setId(Long id) {
-		this.id = id;
+		this.productId = id;
 	}
 
 	public String getCategoryName() {
@@ -47,8 +47,8 @@ public class ProductCategory {
 
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private Long id;
+    @Column(name = "productId")
+    private Long productId;
 
     @Column(name = "category_name")
     private String categoryName;

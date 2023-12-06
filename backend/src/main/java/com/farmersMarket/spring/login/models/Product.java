@@ -15,8 +15,8 @@ import java.math.BigDecimal;
 	public class Product {
 		@Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	    @Column(name = "id")
-	    private Long id;
+	    @Column(name = "productId")
+	    private Long productId;
 
 	    @ManyToOne
 	    @JoinColumn(name = "category_id", nullable = false)
@@ -39,11 +39,11 @@ import java.math.BigDecimal;
 	    private int unitsInStock;
 
 	    public Long getId() {
-			return id;
+			return productId;
 		}
 
 		public void setId(Long id) {
-			this.id = id;
+			this.productId = id;
 		}
 
 		public ProductCategory getCategory() {
