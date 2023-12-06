@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import Cart from '../pages/Cart';
 import Favorites from '../pages/Favorites';
 import Home from '../pages/Home';
 import LoginPage from '../pages/LoginPage';
@@ -13,6 +14,7 @@ const AppRoutes = () => {
 			<Route path="/home" element={<Home></Home>} />
 			<Route path="/favorites" element={<Favorites></Favorites>} />
 			<Route path="/history" element={<PurchaseHistory></PurchaseHistory>} />
+			<Route path="/Checkout" element={<Cart></Cart>} />
 			{/* Define other routes */}
 		</Routes>
 	);
