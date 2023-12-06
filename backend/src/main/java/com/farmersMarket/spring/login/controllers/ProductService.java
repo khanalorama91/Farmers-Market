@@ -1,6 +1,6 @@
 package com.farmersMarket.spring.login.controllers;
 
-import com.knf.dev.demo.helloworld.Model.Product;
+import com.farmersMarket.spring.login.models.Product;
 
 public interface ProductService {
 	Iterable<Product> listAllProducts();
