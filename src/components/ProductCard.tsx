@@ -14,21 +14,22 @@ const ProductCard: React.FC<ProductCardProps> = ({
 	rating,
 }) => {
 	return (
-		<div className="max-w-sm rounded overflow-hidden shadow-lg bg-white m-2">
-			<img className="w-full" src={imageUrl} alt={`Image of ${productName}`} />
-			<div className="px-6 py-4">
+		<div className="w-64 h-72 bg-white rounded-lg overflow-hidden shadow-md m-2 flex flex-col justify-between p-4">
+			<img
+				className="w-full h-32 object-cover rounded-t-lg" // Rounded top edges for the image
+				src={imageUrl}
+				alt={`Image of ${productName}`}
+			/>
+			<div className="px-4 py-2 flex-1">
 				<div className="font-bold text-xl mb-2">{productName}</div>
 				<p className="text-gray-700 text-base">Price: ${price.toFixed(2)}</p>
+				<div className="flex items-center mt-1">
+					<span className="text-yellow-400 text-sm">★ {rating}</span>
+				</div>
 			</div>
-			<div className="px-6 pt-4 pb-2">
-				<span className="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-					★ {rating}
-				</span>
-				{/* Button or icon to add product to cart */}
-				<button className="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-4 rounded-full">
-					Add to Cart
-				</button>
-			</div>
+			<button className="bg-green-500 hover:bg-green-700 text-white text-sm font-bold py-2 px-4 rounded-md">
+				Add to Cart
+			</button>
 		</div>
 	);
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import CheeseImage from '../assets/AmericanCheese.png';
+import BaconImage from '../assets/Bacon.png';
 import EggsImage from '../assets/Eggs.png';
 import Sidebar from '../components/Sidebar';
 
@@ -18,7 +19,13 @@ const Cart: React.FC = () => {
 			quantity: 2,
 			price: 7.0,
 			imageUrl: EggsImage,
-			rating: 4.5,
+		},
+		{
+			id: 3,
+			name: 'Bacon',
+			quantity: 2,
+			price: 12.0,
+			imageUrl: BaconImage,
 		},
 	];
 
