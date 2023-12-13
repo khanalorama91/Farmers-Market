@@ -1,4 +1,4 @@
-# spring-react-helloworld
+# spring-react-Farmer's Market
 React JS, Spring Boot - Farmer's market
 
 # Run the application
