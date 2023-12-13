@@ -1,2 +1,4 @@
-/Users/manishkhanal/Desktop/PHASE2AS OF 5 pm/Farmers-Market/backend/src/test/java/com/farmersMarket/spring/security/login/SpringBootLoginExampleApplicationTests.java
-/Users/manishkhanal/Desktop/PHASE2AS OF 5 pm/Farmers-Market/backend/src/test/java/com/farmersMarket/spring/security/ProductRepositoryTests.java
+/Users/manishkhanal/Desktop/Final/Farmers-Market/backend/src/test/java/com/farmersMarket/login/controller/AuthControllerTests.java
+/Users/manishkhanal/Desktop/Final/Farmers-Market/backend/src/test/java/com/farmersMarket/spring/security/login/SpringBootLoginExampleApplicationTests.java
+/Users/manishkhanal/Desktop/Final/Farmers-Market/backend/src/test/java/com/farmersMarket/spring/security/ProductRepositoryTests.java
+/Users/manishkhanal/Desktop/Final/Farmers-Market/backend/src/test/java/com/farmersMarket/login/controller/ProductControllerTests.java
