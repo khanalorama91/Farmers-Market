@@ -1,5 +1,5 @@
 # spring-react-helloworld
-React JS, Spring Boot - Hello World Example
+React JS, Spring Boot - Farmer's market
 
 # Run the application
 
